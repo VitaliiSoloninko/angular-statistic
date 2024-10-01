@@ -18,6 +18,10 @@ export class ControlComponent {
   //   console.log('Clicked!');
   // }
 
+  onClick() {
+    console.log('Clicked!');
+  }
+
   @Input({ required: true })
   label!: string;
 }
